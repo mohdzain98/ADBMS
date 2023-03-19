@@ -15,3 +15,4 @@ for x in records:
     print(x)
 
 #cursor.execute("create view faculty1 as select ID ,name,dept_name from instructor")
+
