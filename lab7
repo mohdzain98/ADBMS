@@ -9,7 +9,7 @@ for x in cursor:
     print(x)
     
 
-cursor.execute("DESCRIBE instructor")
+cursor.execute("DESCRIBE teaches")
 records=cursor.fetchall()
 for x in records:
     print(x)
